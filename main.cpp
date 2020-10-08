@@ -2,6 +2,7 @@
 
 int foo(void);
 int bar(void);
+int baz(void);
 
 int main(void) {
 
@@ -19,5 +20,11 @@ int foo(void) {
 int bar(void) {
 
 	std::cout << "bar" << std::endl;
+	return 0;
+}
+
+int baz(void) {
+
+	std::cout << "baz" << std::endl;
 	return 0;
 }
