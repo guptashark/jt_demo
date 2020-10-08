@@ -1,6 +1,7 @@
 #include <iostream>
 
 int foo(void);
+int bar(void);
 
 int main(void) {
 
@@ -12,5 +13,11 @@ int main(void) {
 int foo(void) {
 
 	std::cout << "foo" << std::endl;
+	return 0;
+}
+
+int bar(void) {
+
+	std::cout << "bar" << std::endl;
 	return 0;
 }
