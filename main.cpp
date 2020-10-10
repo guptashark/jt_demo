@@ -28,3 +28,5 @@ int baz(void) {
 	std::cout << "baz" << std::endl;
 	return 0;
 }
+
+int bois(void);
